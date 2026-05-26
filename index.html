@@ -961,32 +961,33 @@
             </div>
           </div>
 
-          <!-- Block 4: IL FBA Management System -->
+          <!-- Block 4: IL FBA Pipeline Automation -->
           <div class="exp-block fade-up" style="transition-delay:.2s">
             <div class="exp-block-header">
               <div class="exp-block-icon" style="background:#EFF6FF;">🏭</div>
               <div>
-                <div class="exp-block-title">IL FBA Management System</div>
-                <div class="exp-block-sub">Python · Amazon FBA · Inventory Reconciliation · AI-Assisted Dev</div>
+                <div class="exp-block-title">IL FBA Pipeline Automation</div>
+                <div class="exp-block-sub">n8n · Google Apps Script · Google Drive · Slack API</div>
               </div>
             </div>
             <p class="exp-block-desc">
-              A purpose-built inventory management tool for Illinois-based FBA operations , 
-              tracking inbound shipments, reconciling stock levels, and streamlining the
-              prep workflow for Amazon Fulfillment Centers.
+              Automated the manual process of importing and consolidating FBA inventory
+              files into a centralized tracking sheet, replacing a fully manual
+              download-import-consolidate workflow with a zero-touch automated pipeline.
             </p>
             <ul class="exp-block-list">
-              <li>FBA shipment tracking and stock reconciliation across fulfillment centers</li>
-              <li>Prep workflow management for fulfillment center submissions</li>
-              <li>Investigated and resolved a 382-unit FBA inventory discrepancy across Germany and UK FCs, traced a post-Brexit routing split and identified a Remote Fulfillment enrollment gap (Y-NOT Natural Pty Ltd case)</li>
-              <li>Built with AI-assisted development (Claude Code), documented for client handoff</li>
+              <li>Google Drive trigger detects new uploaded files automatically and filters by filename pattern</li>
+              <li>Resets and reimports sheet data with retry logic on failure</li>
+              <li>Runs 4-stage ASIN and MSKU consolidation via Google Apps Script webhooks</li>
+              <li>Transfers consolidated data to IL FBA master sheet on completion</li>
+              <li>Sends Slack notification reporting success or failure after each run</li>
             </ul>
             <div class="tech-tags">
-              <span class="tag">Python</span>
+              <span class="tag">n8n</span>
+              <span class="tag">Google Apps Script</span>
+              <span class="tag">Google Drive API</span>
+              <span class="tag">Slack API</span>
               <span class="tag">Amazon FBA</span>
-              <span class="tag">Inventory Tracking</span>
-              <span class="tag">Cross-Border FC</span>
-              <span class="tag">Claude Code</span>
             </div>
           </div>
 
@@ -1129,7 +1130,7 @@
           <div class="skill-group-title">Data &amp; Analysis</div>
           <div class="skill-pills">
             <span class="skill-pill">Pandas</span>
-            
+            <span class="skill-pill">SQLite</span>
             <span class="skill-pill">JSON data pipelines</span>
             <span class="skill-pill">Regex data extraction</span>
           </div>
@@ -1201,13 +1202,13 @@
       </div>
       <div class="hobbies-grid">
 
-        <!-- AI Video Generator -->
+        <!-- FB Reels AI Video Factory -->
         <div class="hobby-card fade-up" style="transition-delay:.05s">
           <div class="hobby-card-top">
             <div class="hobby-icon" style="background:#FAF5FF;">🎥</div>
             <span class="hobby-badge">Automation</span>
           </div>
-          <div class="hobby-title">AI Video Generator</div>
+          <div class="hobby-title">FB Reels AI Video Factory</div>
           <p class="hobby-desc">
             A fully automated Facebook Reels pipeline powered by n8n. One form submission
             triggers a 10-step workflow: AI script writing → text-to-speech → stock footage
@@ -1223,13 +1224,13 @@
           </div>
         </div>
 
-        <!-- Video Builder -->
+        <!-- Video Hook Builder -->
         <div class="hobby-card fade-up" style="transition-delay:.1s">
           <div class="hobby-card-top">
             <div class="hobby-icon" style="background:#F0FDF4;">🎬</div>
             <span class="hobby-badge">Desktop App</span>
           </div>
-          <div class="hobby-title">Video Builder</div>
+          <div class="hobby-title">Video Hook Builder</div>
           <p class="hobby-desc">
             A Python desktop app for producing short-form reels. Drag-drop clips, generate
             AI hook scripts, record audio, and export with word-by-word burned-in subtitles , 
